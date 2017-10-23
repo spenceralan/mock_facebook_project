@@ -1,0 +1,38 @@
+header {
+  color: #fff;
+  background-color: #3b5998;
+  height: 82px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+}
+
+.wrap {
+  width: 80%;
+  max-width: 24em;
+  padding: 0.25em 0.625em;
+}
+
+h1 {
+  position: absolute;
+  display: inline;
+}
+
+#login {
+  padding-left: 600px;
+}
+
+.sign-in {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  padding: 5px;
+}
+
+.sign-in input {
+  display: block;
+}
+
+#login-button {
+  color: #fff;
+  background-color: #4267b2;
+  border-radius: 1px;
+}

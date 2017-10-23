@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  white-space: nowrap;
+}
+
+main {
+  font-family: 'Open Sans', sans-serif;
+  font-style: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 575px;
+  background-color: #edf0f5;
+}
+
+main h2 {
+  margin: 0 0 0 0;
+}
+
+.subtitle {
+  padding: 42px 0 24px;
+  width: 300px;
+}
+
+.bold {
+  font-weight: 300;
+}
+
+.sign-up {
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  width: 286px;
+}
+
+.see-share-find {
+  display: block;
+  padding: 20px !important;
+}
+
+.see-share-find p {
+  display: inline;
+  padding-left: 20px;
+}
+
+.sign-up input {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 10px 10px 0;
+}
+
+.sign-up label {
+  padding-right: 10px;
+}
+
+#username {
+  width: 100%;
+}
+
+#new-password {
+  width: 100%;
+}
+
+#create-account {
+  background-color: #69a74e;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.conditions {
+  font-size: 10px;
+  white-space: normal;
+}
+
+.styled-select select {
+  background: transparent;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border-radius: 1px;
+  height: 34px;
+  }
+
+@media only screen
+  and (max-width: 999px) {
+  body {
+    width: 1000px;
+  }
+}

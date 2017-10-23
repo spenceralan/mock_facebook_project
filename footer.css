@@ -1,0 +1,36 @@
+footer {
+  height: 175px;
+}
+
+.menu-format {
+  padding-top: 10px;
+  margin: 0;
+  color: #333;
+  font-family: arial, helvetica, sans-serif;
+  white-space: nowrap;
+  list-style-type: none;
+}
+
+.menu-format li {
+  display:inline;
+  font-size: 12px;
+  padding-right: 5px;
+}
+
+.menu-format li a {
+  padding:0.2em 1em;
+  background:#fc6;
+  color:#000;
+  text-decoration:none;
+  float:left;
+  border:1px solid #000;
+}
+
+.menu-format li a:hover {
+  background:#08c;
+  color:#fff;
+}
+
+#copywright {
+  font-size: 10px;
+}
